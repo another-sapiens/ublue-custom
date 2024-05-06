@@ -52,7 +52,7 @@ COPY build.sh /tmp/build.sh
 
 RUN mkdir -p /var/lib/alternatives && \
     /tmp/build.sh && \
-    rpm-ostree install waydroid fish && \
+    rpm-ostree install waydroid fish ptyxis && \
     ostree container commit
 ## NOTES:
 # - /var/lib/alternatives is required to prevent failure with some RPM installs
