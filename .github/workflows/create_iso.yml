@@ -1,4 +1,4 @@
-            - name: Build Container Installer
+- name: Build Container Installer
   # You may pin to the exact commit or the version.
   # uses: JasonN3/build-container-installer@834657681642011849b99b9e582722e5fb978321
   uses: JasonN3/build-container-installer@v1.2.0
