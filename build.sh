@@ -18,12 +18,9 @@ rpm-ostree install screen
 # this would install a package from rpmfusion
 # rpm-ostree install vlc
 
-# Remove extra branding
-rm -rf /usr/share/ublue-os/bluefin-logos/
+# Install fish shell, xrandr and plank
 
-rm /usr/share/fish/vendor_conf.d/bluefin-fastfetch.fish
-
-rm /usr/etc/profile.d/bluefin-fastfetch.sh
+rpm-ostree install fish xrandr plank
 
 #### Example for enabling a System Unit File
 
